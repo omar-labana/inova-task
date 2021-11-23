@@ -1,0 +1,20 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-input-placeholder {
+    text-align: right;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: right;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: right;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: right; 
+ }
