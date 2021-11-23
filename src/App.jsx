@@ -1,11 +1,11 @@
+import MainForm from "./components/MainForm";
 
 const App = () => {
   return (
     <>
-    <h1 className="font-en">Hi</h1>
-    <h1 className="font-ar">هلا</h1>
+      <MainForm />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
